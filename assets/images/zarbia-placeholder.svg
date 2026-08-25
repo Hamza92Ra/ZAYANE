@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="rugBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E9D3AE"/>
+      <stop offset="100%" stop-color="#C98A55"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="900" fill="url(#rugBg)"/>
+  <rect x="90" y="90" width="920" height="720" fill="none" stroke="#4A2F22" stroke-width="8"/>
+  <rect x="130" y="130" width="840" height="640" fill="none" stroke="#B5623A" stroke-width="3"/>
+  <g stroke="#4A2F22" stroke-width="2" fill="none">
+    <path d="M550 200 L620 300 L550 400 L480 300 Z"/>
+    <path d="M550 500 L620 600 L550 700 L480 600 Z"/>
+    <path d="M300 350 L370 450 L300 550 L230 450 Z"/>
+    <path d="M800 350 L870 450 L800 550 L730 450 Z"/>
+    <circle cx="550" cy="450" r="60"/>
+    <circle cx="550" cy="450" r="30"/>
+  </g>
+  <g stroke="#C6963C" stroke-width="2">
+    <line x1="130" y1="230" x2="970" y2="230"/>
+    <line x1="130" y1="670" x2="970" y2="670"/>
+  </g>
+</svg>

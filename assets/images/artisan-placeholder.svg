@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="artBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E9D3AE"/>
+      <stop offset="100%" stop-color="#A8693E"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1000" fill="url(#artBg)"/>
+  <!-- métier à tisser -->
+  <rect x="120" y="120" width="660" height="8" fill="#4A2F22"/>
+  <rect x="120" y="820" width="660" height="8" fill="#4A2F22"/>
+  <rect x="120" y="120" width="8" height="708" fill="#4A2F22"/>
+  <rect x="772" y="120" width="8" height="708" fill="#4A2F22"/>
+  <!-- fils tendus -->
+  <g stroke="#F1E4C8" stroke-width="2" opacity="0.85">
+    <line x1="160" y1="128" x2="160" y2="820"/>
+    <line x1="200" y1="128" x2="200" y2="820"/>
+    <line x1="240" y1="128" x2="240" y2="820"/>
+    <line x1="280" y1="128" x2="280" y2="820"/>
+    <line x1="320" y1="128" x2="320" y2="820"/>
+    <line x1="360" y1="128" x2="360" y2="820"/>
+    <line x1="400" y1="128" x2="400" y2="820"/>
+    <line x1="440" y1="128" x2="440" y2="820"/>
+  </g>
+  <!-- motif tissé déjà réalisé -->
+  <g stroke="#C6963C" stroke-width="4" fill="none">
+    <path d="M160 400 Q300 360 440 400 T680 400"/>
+    <path d="M160 460 Q300 500 440 460 T680 460"/>
+    <path d="M160 520 Q300 480 440 520 T680 520"/>
+  </g>
+  <!-- silhouette artisane -->
+  <circle cx="600" cy="560" r="46" fill="#2B1B13"/>
+  <path d="M540 900 C540 760 560 660 600 660 C640 660 660 760 660 900 Z" fill="#2B1B13"/>
+  <path d="M556 700 C520 730 480 760 440 760" stroke="#2B1B13" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M644 700 C660 730 660 760 640 800" stroke="#2B1B13" stroke-width="26" stroke-linecap="round" fill="none"/>
+</svg>

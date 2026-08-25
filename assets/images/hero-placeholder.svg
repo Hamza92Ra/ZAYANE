@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="skyFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E9D3AE"/>
+      <stop offset="55%" stop-color="#D3AE7C"/>
+      <stop offset="100%" stop-color="#8C5A38"/>
+    </linearGradient>
+    <linearGradient id="archFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4A2F22"/>
+      <stop offset="100%" stop-color="#2B1B13"/>
+    </linearGradient>
+    <pattern id="zellijBg" width="80" height="80" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#C6963C" stroke-opacity="0.18" stroke-width="1.2">
+        <path d="M40 4 L60 20 L60 60 L40 76 L20 60 L20 20 Z"/>
+        <path d="M40 4 L40 76 M20 20 L60 60 M60 20 L20 60"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#skyFade)"/>
+  <rect width="1600" height="1000" fill="url(#zellijBg)"/>
+  <!-- horizon dunes -->
+  <path d="M0 720 Q400 640 800 700 T1600 680 V1000 H0 Z" fill="#B5623A" opacity="0.55"/>
+  <path d="M0 800 Q500 740 1000 790 T1600 770 V1000 H0 Z" fill="#8C5A38" opacity="0.75"/>
+  <!-- horseshoe arch silhouette -->
+  <path d="M700 1000 V620 A150 150 0 0 1 900 620 V1000 Z" fill="url(#archFade)" opacity="0.92"/>
+  <path d="M700 1000 V640 A150 150 0 0 1 900 640 V1000" fill="none" stroke="#C6963C" stroke-width="3"/>
+  <!-- djellaba silhouette hanging in arch -->
+  <path d="M800 640 C770 640 758 660 758 690 L748 960 C748 985 770 995 800 995 C830 995 852 985 852 960 L842 690 C842 660 830 640 800 640 Z" fill="#E9D9BA" opacity="0.9"/>
+  <path d="M800 640 C790 655 790 675 800 690 C810 675 810 655 800 640 Z" fill="#C6963C" opacity="0.9"/>
+  <line x1="778" y1="700" x2="770" y2="960" stroke="#B5623A" stroke-width="2" opacity="0.5"/>
+  <line x1="822" y1="700" x2="830" y2="960" stroke="#B5623A" stroke-width="2" opacity="0.5"/>
+</svg>
